@@ -7,12 +7,18 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 30px;
-  .card {
-    max-width: 500px;
-    min-height: 120px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 5px 10px 5px 10px;
+
+
+    .oja {
+      max-width: 500px;
+      min-height: 220px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 5px 10px 5px 10px;
+      background-image: asset-url('oja.png');
+      background-size: cover;
+      object-fit: cover;
+    }
   }
-}
+// }
