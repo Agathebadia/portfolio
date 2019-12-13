@@ -1,5 +1,5 @@
 .banner {
-  min-height: 400px;
+  min-height: 500px;
   background-color: #FEF4F2;
   display: flex;
   justify-content: space-evenly;
@@ -8,11 +8,16 @@
     background-image: asset-url('profile-picture.png');
   }
   .description-card {
+  max-width: 400px;
   background-color: white;
   padding: 5px 15px 5px 15px;
-  box-shadow: -18px 11px 0px 3px #f9e0db;
+  box-shadow: -18px 15px 0px 3px #f9e0db;
   }
   .title {
     margin-bottom: 45px;
+  }
+  .name-role {
+    text-align: right;
+    line-height: 2.2;
   }
 }
