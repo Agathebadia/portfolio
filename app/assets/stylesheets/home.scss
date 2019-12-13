@@ -9,5 +9,10 @@
   grid-gap: 30px;
   .card {
     max-width: 500px;
+    min-height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px 5px 10px;
   }
 }
