@@ -19,10 +19,21 @@
       background-image: asset-url('oja.png');
       background-size: cover;
 
-      &:hover {
+      .title {
+        display: none;
+      }
+
+      &:hover, &:focus {
+        -ms-transform: scale(0.9); /* IE  */
+        -webkit-transform: scle(0.9); /* Safari */
+        transform: scale(0.9);
         webkit-filter: blur(3px); /* Chrome, Safari, Opera */
         filter: blur(3px);
         transition: 0.8s;
+
+        .title {
+          display: block;
+        }
       }
     }
 
@@ -36,7 +47,10 @@
       background-image: asset-url('tooli.png');
       background-size: cover;
 
-      &:hover {
+      &:hover, &:focus {
+        -ms-transform: scale(0.9); /* IE  */
+        -webkit-transform: scle(0.9); /* Safari */
+        transform: scale(0.9);
         webkit-filter: blur(3px); /* Chrome, Safari, Opera */
         filter: blur(3px);
         transition: 0.8s;
@@ -53,7 +67,10 @@
       background-image: asset-url('miss-cocktail.png');
       background-size: cover;
 
-     &:hover {
+     &:hover, &:focus {
+        -ms-transform: scale(0.9); /* IE  */
+        -webkit-transform: scle(0.9); /* Safari */
+        transform: scale(0.9);
         webkit-filter: blur(3px); /* Chrome, Safari, Opera */
         filter: blur(3px);
         transition: 0.8s;
