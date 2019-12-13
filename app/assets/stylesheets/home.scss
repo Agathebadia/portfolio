@@ -3,43 +3,61 @@
   margin-top: 2em;
   margin-bottom: 4em;
 }
-.cards {
+.container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 30px;
-
+  margin: auto;
 
     .oja {
+      border-radius: 4px;
       max-width: 500px;
       min-height: 220px;
       display: flex;
       align-items: center;
       justify-content: center;
-      padding: 5px 10px 5px 10px;
       background-image: asset-url('oja.png');
       background-size: cover;
+
+      &:hover {
+        webkit-filter: blur(3px); /* Chrome, Safari, Opera */
+        filter: blur(3px);
+        transition: 0.8s;
+      }
     }
 
     .tooli {
+      border-radius: 4px;
       max-width: 500px;
       min-height: 220px;
       display: flex;
       align-items: center;
       justify-content: center;
-      padding: 5px 10px 5px 10px;
       background-image: asset-url('tooli.png');
       background-size: cover;
+
+      &:hover {
+        webkit-filter: blur(3px); /* Chrome, Safari, Opera */
+        filter: blur(3px);
+        transition: 0.8s;
+      }
     }
 
     .miss-cocktail {
+      border-radius: 4px;
       max-width: 500px;
       min-height: 220px;
       display: flex;
       align-items: center;
       justify-content: center;
-      padding: 5px 10px 5px 10px;
       background-image: asset-url('miss-cocktail.png');
       background-size: cover;
+
+     &:hover {
+        webkit-filter: blur(3px); /* Chrome, Safari, Opera */
+        filter: blur(3px);
+        transition: 0.8s;
+      }
     }
   }
 // }
