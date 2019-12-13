@@ -1,4 +1,10 @@
 .banner {
   min-height: 400px;
   background-color: #FEF4F2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .circled-picture img {
+    image: asset_url('profile-picture.png');
+  }
 }
