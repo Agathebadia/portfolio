@@ -22,3 +22,5 @@ var options = {
 };
 
 var typed = new Typed('.element', options);
+
+const dis

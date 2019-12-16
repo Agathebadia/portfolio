@@ -2,11 +2,12 @@
   text-align: center;
   margin-top: 2em;
   margin-bottom: 4em;
+  text-shadow: 3px 3px 3px #f9e0db;
 }
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 50px;
+  grid-gap: 80px;
   margin: auto;
 
     .oja {
