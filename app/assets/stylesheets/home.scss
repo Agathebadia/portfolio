@@ -90,4 +90,22 @@
       }
     }
   }
-// }
+
+  .social-media {
+    display: flex;
+    justify-content: space-around;
+    color: #333333;
+    padding: 8px 8px 8px 8px;
+    font-size: 20px;
+    .social-links {
+      i {
+    color: #333333;
+    padding: 8px 8px 8px 8px;
+    font-size: 20px;
+
+    &:hover {
+    color: #f7a799;
+    }
+  }
+    }
+  }
