@@ -2,6 +2,8 @@
   "name": "portfolio",
   "private": true,
   "dependencies": {
+    "jquery": "^3.4.1",
+    "slick-carousel": "^1.8.1",
     "typed.js": "^2.0.11"
   }
 }
