@@ -94,9 +94,11 @@
   .social-media {
     display: flex;
     justify-content: space-around;
-    color: #333333;
-    padding: 8px 8px 8px 8px;
-    font-size: 20px;
+    p {
+      color: #333333;
+      padding: 8px 8px 8px 8px;
+      font-size: 15px;
+    }
     .social-links {
       i {
     color: #333333;
