@@ -11,10 +11,14 @@
     margin: 10px 20px 30px 20px;
     transition: 0.5s;
 
-    p {
+    .textOverText {
       margin-top: 10px;
       display: flex;
       justify-content: center;
+    }
+
+    .textOverText:first-line {
+
     }
 
     &:hover, &:focus {
@@ -25,31 +29,23 @@
       }
 
 
-    .skill:after p {
-      content: attr(data-hover);
+    .textOverText:after {
+      content:attr(data-inactive);
       top: 100%;
       bottom: 0;
       left: 0;
       right: 0;
-      word-wrap: break-word;
+      white-space: pre-wrap;
       overflow: hidden;
-      background-color: rgba(0,0,0,0.6);
-      opacity: 0;
       transition: 0.5s;
     }
 
-    .skill:hover:after p {
-      opacity: 1;
-      top:0;
+    .textOverText:hover:after {
+      content:attr(data-hover);
+      font-weight: bold;
+      transition: 0.5s;
+      top: 0;
     }
-
-    // .sub-text {
-    //   visibility: hidden;
-
-    //   }
-
-    //   .skill:hover .sub-text{
-    //     visibility: visible;
     }
     }
 
