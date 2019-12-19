@@ -2,4 +2,18 @@
   display: flex;
   justify-content: space-between;
   background-color: white;
+  span {
+  padding: 15px 10px 15px 10px;
+}
+    a {
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+
+  &:hover {
+  text-decoration: none;
+  color: #484d5b;
+  }
+  }
+
 }
