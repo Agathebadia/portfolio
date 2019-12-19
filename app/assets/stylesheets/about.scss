@@ -4,7 +4,17 @@
   flex-wrap: wrap;
 
   .skill {
-    min-width: 200px;
+    text-align: center;
+    max-width: 350px;
+    max-height: 125px;
+    margin: 10px 20px 10px 20px;
+
+    p {
+      margin-top: 10px;
+      display: flex;
+      justify-content: center;
+    }
+
 
     .sub-text {
       visibility: hidden;
