@@ -15,3 +15,27 @@
 //= require turbolinks
 //= require_tree .
 
+
+    let skills = document.querySelectorAll("skill")
+
+      skills.forEach((skill) => {
+        skill.addEventListener('mouseover' (event) => {
+          event.currentTarget.classList.toggle('sub-text');
+          console.log('sub-text');
+        });
+      });
+
+      const event = new MouseEvent('mouseover', {
+  'view': window,
+  'bubbles': true,
+  'cancelable': true
+});
+
+    // function mySkillFunction() {
+    //   recruitment.addEventListener("mouseover", function(event) {
+    //       event.classList.toggle("sub-text");
+    //       });
+    // };
+
+
+export MouseEvent();

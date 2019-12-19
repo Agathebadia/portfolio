@@ -52,76 +52,55 @@
 
   <div class="skills">
     <div class="skill">
-      <div id="recruitment">
       <%= image_tag "interview.png", width: 80 %>
-      <p>Tech Recruitment</p>
-      <div class="sub-text">
+      <p data-hover="3+ years of experience">Tech Recruitment</p>
+<!--       <div class="sub-text">
       3+ years of experience
-      </div>
-      </div>
+      </div> -->
     </div>
 
     <div class="skill">
-      <div id="teaching">
       <%= image_tag "open-book.png", width: 80 %>
-      <p>Popularizing/Teaching tech for non tech teams</p>
-      <div class="sub-text">
+      <p data-hover="Workshops & internal e-learning course for tech knowledge/awarenes">Popularizing/Teaching tech for non tech teams</p>
+<!--       <div class="sub-text">
       Workshops & internal e-learning course for tech knowledge/awareness
-      </div>
-      </div>
+      </div> -->
     </div>
 
     <div class="skill">
-      <div id="coaching">
       <%= image_tag "team.svg", width: 80 %>
-      <p>Mentoring & coaching</p>
-      <div class="sub-text">
+      <p data-hover="Onboarded 20+ junior HR colleagues, led 4-5 team members">Mentoring & coaching</p>
+<!--       <div class="sub-text">
       Onboarded 20+ junior HR colleagues, led 4-5 team members
-      </div>
-      </div>
+      </div> -->
     </div>
 
     <div class="skill">
-      <div id="customer-service">
       <%= image_tag "telemarketer.png", width: 80 %>
-      <p>Customer service focused on developers</p>
-      <div class="sub-text">
+      <p data-hover="2000+ calls with developers">Customer service focused on developers</p>
+<!--       <div class="sub-text">
       2000+ calls with developers
-      </div>
-      </div>
+      </div> -->
     </div>
 
    <div class="skill">
-    <div id="organisation">
     <%= image_tag "bookshelf.png", width: 80 %>
-      <p>Organisation/Structure</p>
-      <div class="sub-text">
+      <p data-hover="Notion, Trello, Post it!">Organisation/Structure</p>
+<!--       <div class="sub-text">
       Notion, Trello, Post it!
-      </div>
-      </div>
-    </div>
+      </div> -->
+  </div>
 
     <div class="skill">
-      <div id="language">
     <%= image_tag "workspace.png", width: 80 %>
-      <p>Comfortable in English/French environment</p>
-      <div class="sub-text">
+      <p data-hover="Native French speaker, fluent in English">Experienced in English/French work place</p>
+<!--       <div class="sub-text">
       Native French speaker, fluent in English
-      </div>
-      </div>
+      </div> -->
     </div>
   </div>
 
   <%= render 'shared/footer' %>
 
-  <script>
-    let recruitment = document.getElementById("recruitment");
-
-    function mySkillFunction() {
-      recruitment.addEventListener("mouseover", function(event) {
-          event.target.style.color = "orange";
-          });
-    };
-  </script>
 </body>
 </html>
