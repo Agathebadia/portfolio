@@ -1,8 +1,31 @@
-<h1>Pages#about</h1>
+
 <%= render 'shared/navbar' %>
 
-
-<%= image_tag "about-photo.jpg", width: 500%>
-
+<div class="banner">
+  <div class="circle-picture">
+        <%= image_tag "about-photo.jpg", width: 500%>
+      </div>
+    <div class="name-role-description">
+      <div class="tech-stack">
+        <h1 class="title">Tech stack</h1>
+      </div>
+      <div class="cards">
+      <div class="card">
+        <%= image_tag "html5.svg", height: 50 %>
+        <%= image_tag "css3.svg", height: 50 %>
+        <%= image_tag "bootstrap.svg", height: 50 %>
+        <%= image_tag "javascript.svg", height: 50 %>
+        </div>
+        <div class="card">
+        <%= image_tag "ruby-original.svg", height: 50 %>
+        <%= image_tag "rails-original.svg", height: 50 %>
+      </div>
+        <div class="card">
+          <%= image_tag "git.svg", height: 50 %>
+          <%= image_tag "github.svg", height: 50 %>
+          <%= image_tag "heroku.svg", height: 50 %>
+      </div>
+    </div>
+    </div>
 
 <%= render 'shared/footer' %>
