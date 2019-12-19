@@ -15,37 +15,78 @@
 </head>
 
 <body>
-<%= render 'shared/navbar' %>
+  <%= render 'shared/navbar' %>
 
 
-<div class="banner">
-  <div class="about-photo">
-        <%= image_tag "about-photo.jpg", width: 500%>
-      </div>
+  <div class="banner">
+    <div class="about-photo">
+      <%= image_tag "about-photo.jpg", width: 500%>
+    </div>
     <div class="name-role-description">
       <div class="tech-stack">
         <h1 class="title">Tech stack</h1>
       </div>
       <div class="cards">
-      <div class="card">
-        <%= image_tag "html5.svg", height: 60 %>
-        <%= image_tag "css3.svg", height: 60 %>
-        <%= image_tag "bootstrap.svg", height: 60 %>
-        <%= image_tag "javascript.svg", height: 60 %>
+        <div class="card">
+          <%= image_tag "html5.svg", height: 60 %>
+          <%= image_tag "css3.svg", height: 60 %>
+          <%= image_tag "bootstrap.svg", height: 60 %>
+          <%= image_tag "javascript.svg", height: 60 %>
         </div>
         <div class="card">
-        <%= image_tag "ruby-original.svg", height: 60 %>
-        <%= image_tag "rails-original.svg", height: 60 %>
-      </div>
+          <%= image_tag "ruby-original.svg", height: 60 %>
+          <%= image_tag "rails-original.svg", height: 60 %>
+        </div>
         <div class="card">
           <%= image_tag "git.svg", height: 60 %>
           <%= image_tag "github.svg", height: 60 %>
           <%= image_tag "heroku.svg", height: 60 %>
+        </div>
       </div>
     </div>
   </div>
-</div>
 
-    <%= render 'shared/footer' %>
+  <div class="projects">
+    <h1>Skills</h1>
+  </div>
+
+  <div class="skills">
+    <div class="skill">
+      Tech Recruitment
+      <div class="sub-text">
+      3+ years of experience
+      </div>
+    </div>
+
+    <div class="skill">
+      Popularizing/Teaching tech knowledge among non tech teams
+      <div class="sub-text">
+      Workshops and internal e-learning course
+      </div>
+    </div>
+
+    <div class="skill">
+      Mentoring & coaching
+      <div class="sub-text">
+      Onboarded 20+ junior HR colleagues, led 4-5 team members
+      </div>
+    </div>
+
+    <div class="skill">
+      Customer service focused on developers
+      <div class="sub-text">
+      2000+ calls with developers
+      </div>
+    </div>
+
+   <div class="skill">
+      Organisation/Structure
+      <div class="sub-text">
+      Notion, Trello, Post it!
+      </div>
+    </div>
+  </div>
+
+  <%= render 'shared/footer' %>
 </body>
 </html>

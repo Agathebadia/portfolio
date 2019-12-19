@@ -1,0 +1,13 @@
+.skills {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  .skill {
+    min-width: 200px;
+
+    .sub-text {
+      visibility: hidden;
+    }
+  }
+}
