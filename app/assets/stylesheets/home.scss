@@ -29,10 +29,6 @@ font-family: 'Fjalla One', sans-serif !important;
       background-size: cover;
       box-shadow: -18px 15px 0px 3px #f9e0db;
 
-      p {
-        visibility: hidden;
-      }
-
       &:hover, &:focus {
         -ms-transform: scale(0.99); /* IE  */
         -webkit-transform: scle(0.99); /* Safari */
@@ -43,10 +39,22 @@ font-family: 'Fjalla One', sans-serif !important;
       }
     }
 
-    .oja:hover p {
-        display: block;
-        visibility: visible;
-        }
+     .oja:after {
+      content:attr(data-inactive);
+      top: 100%;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      white-space: pre-wrap;
+      overflow: hidden;
+    }
+
+    .oja:hover:after {
+      content:attr(data-hover);
+      opacity: 0.8;
+      transition: 0.8s;
+      top: 0;
+    }
 
     .tooli {
       border-radius: 3px;
