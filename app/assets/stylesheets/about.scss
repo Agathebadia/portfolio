@@ -1,3 +1,11 @@
+* {
+font-family: 'Cantarell', sans-serif;
+}
+
+h1, h2, h3 {
+font-family: 'Fjalla One', sans-serif !important;
+}
+
 .skills {
   display: flex;
   justify-content: center;
@@ -5,8 +13,8 @@
 
   .skill {
     text-align: center;
-    max-width: 280px;
-    min-width: 250px;
+    max-width: 300px;
+    min-width: 280px;
     max-height: 135px;
     margin: 10px 20px 30px 20px;
     transition: 0.5s;
@@ -41,8 +49,7 @@
 
     .textOverText:hover:after {
       content:attr(data-hover);
-      font-weight: bold;
-      transition: 0.5s;
+      transition: 0.8s;
       top: 0;
     }
     }
