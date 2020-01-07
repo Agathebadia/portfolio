@@ -2,14 +2,13 @@
 <head>
  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
  <link rel="stylesheet" href="devicon.css">
+
  <link href="https://fonts.googleapis.com/css?family=Barlow:300,400,700|Cantarell:400,700|Fjalla+One&display=swap" rel="stylesheet">
- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
- <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
  <link
  href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css"
  rel="stylesheet"  type='text/css'>
  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
- <!-- <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet"> -->
+
  <script src="https://kit.fontawesome.com/b90c7f9273.js" crossorigin="anonymous"></script>
  <title>My portfolio</title>
 </head>
@@ -38,27 +37,48 @@
       <div class="circle-picture">
         <%= image_tag "profile-picture2.png", width: 300, height: 300%>
       </div>
-  </div>
+    </div>
 
     <div class="projects">
       <h1>Projects</h1>
     </div>
 
-    <div class="container" data-slick='{"slidesToShow": 4, "slidesToScroll": 4}'>
-      <div class="oja" data-inactive="" data-hover="Job application tracker">
-      </div>
+    <div class="container">
+      <!-- Post slider -->
+      <div class="post-slider">
 
-      <div  class="tooli" data-inactive="" data-hover="Rent tools for free! - One week project">
-      </div>
+        <div class="post-wrapper">
 
-      <div class="miss-cocktail" data-inactive="" data-hover="Upload pictures and add new cocktail recipes! - One day project">
-      </div>
+          <div class="post">
+            <h3>OJA</h3>
+            <p>Final project</p>
+          </div>
 
-      <div class="card">
-        <p>New projects to come!</p>
+
+        <div class="post">
+          <h3>Tooli</h3>
+          <p>One week project</p>
+        </div>
+
+
+        <div class="post">
+          <h3>Miss Cocktail</h3>
+          <p>Upload pictures and add new cocktail recipes! - One day project</p>
+        </div>
+
+
+        <div class="post">
+          <p>New projects to come!</p>
+        </div>
       </div>
     </div>
+    </div>
+
 
     <%= render 'shared/footer' %>
+
+    <!-- Slick carousel -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
   </body>
   </html>

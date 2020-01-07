@@ -13,99 +13,30 @@ font-family: 'Fjalla One', sans-serif !important;
   text-shadow: 3px 3px 3px #f9e0db;
 }
 .container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 80px;
-  margin: auto;
 
-    .oja {
-      border-radius: 3px;
-      max-width: 500px;
-      min-height: 300px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background-image: asset-url('oja.png');
-      background-size: cover;
-      box-shadow: -18px 15px 0px 3px #f9e0db;
+  .post-slider {
+    border: 1px solid red;
 
-      &:hover, &:focus {
-        -ms-transform: scale(0.99); /* IE  */
-        -webkit-transform: scle(0.99); /* Safari */
-        transform: scale(0.99);
-        webkit-filter: blur(3px); /* Chrome, Safari, Opera */
-        filter: blur(3px);
-        transition: 0.8s;
-      }
-    }
+    .post-wrapper {
+      width: 84%;
+      max-height: 350px;
+      margin: 0px auto;
+      border: 1px solid blue;
 
-     .oja:after {
-      content:attr(data-inactive);
-      top: 100%;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      white-space: pre-wrap;
-      overflow: hidden;
-    }
+    .post {
+      width: 300px;
+      height: 350px;
+      display: inline-block;
 
-    .oja:hover:after {
-      content:attr(data-hover);
-      opacity: 0.8;
-      transition: 0.8s;
-      top: 0;
-    }
 
-    .tooli {
-      border-radius: 3px;
-      max-width: 500px;
-      min-height: 300px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background-image: asset-url('tooli.png');
-      background-size: cover;
-      box-shadow: -18px 15px 0px 3px #f9e0db;
 
-      p {
-        visibility: hidden;
-      }
 
-      &:hover, &:focus {
-        -ms-transform: scale(0.99); /* IE  */
-        -webkit-transform: scle(0.99); /* Safari */
-        transform: scale(0.99);
-        webkit-filter: blur(3px); /* Chrome, Safari, Opera */
-        filter: blur(3px);
-        transition: 0.8s;
-      }
-    }
-
-    .miss-cocktail {
-      border-radius: 3px;
-      max-width: 500px;
-      min-height: 300px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background-image: asset-url('miss-cocktail.png');
-      background-size: cover;
-      box-shadow: -18px 15px 0px 3px #f9e0db;
-
-      p {
-        visibility: hidden;
-      }
-
-     &:hover, &:focus {
-        -ms-transform: scale(0.99); /* IE  */
-        -webkit-transform: scle(0.99); /* Safari */
-        transform: scale(0.99);
-        webkit-filter: blur(3px); /* Chrome, Safari, Opera */
-        filter: blur(3px);
-        transition: 0.8s;
       }
     }
   }
+  }
+
+
 
   .social-media {
     display: flex;
