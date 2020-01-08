@@ -22,7 +22,7 @@ font-family: 'Fjalla One', sans-serif !important;
       top: 50%;
       right: 30px;
       font-size: 2em;
-      color: #F9E0DB;
+      color: #f7a799;
       cursor: pointer;
     }
 
@@ -31,31 +31,33 @@ font-family: 'Fjalla One', sans-serif !important;
       top: 50%;
       left: 30px;
       font-size: 2em;
-      color: #F9E0DB;
+      color: #f7a799;
       cursor: pointer;
     }
 
     .post-wrapper {
-      border: 1px dashed red;
       width: 84%;
-      max-height: 350px;
+      height: 305px;
       margin: 0px auto;
       overflow: hidden;
-      padding: 10px 0 10px 0;
+      // padding: 10px 0 10px 0;
 
     .post {
       display: inline-block;
       background-color: white;
       max-width: 400px;
       max-height: 300px;
-      margin: 0px 10px;
+      margin: 0px 10px ;
       border-radius: 4px;
+      margin-bottom: 25px;
       object-fit: cover;
-      box-shadow: 1rem 1rem 1rem
+      box-shadow: 1rem 1rem 1rem -1rem #e5e3e3;
       }
 
       .post-info {
-
+        max-height: 100px;
+        padding: 5px 5px 5px 5px;
+        text-align: center;
       }
 
       .slider-image img {
