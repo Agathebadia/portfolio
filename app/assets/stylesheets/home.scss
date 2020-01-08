@@ -22,15 +22,14 @@ font-family: 'Fjalla One', sans-serif !important;
       max-height: 350px;
       margin: 0px auto;
       border: 1px solid blue;
+      // overflow: hidden;
 
     .post {
+      background-color: grey;
       width: 300px;
       height: 350px;
       display: inline-block;
-
-
-
-
+      margin: 0px 10px;
       }
     }
   }
