@@ -41,15 +41,31 @@ font-family: 'Fjalla One', sans-serif !important;
       max-height: 350px;
       margin: 0px auto;
       overflow: hidden;
+      padding: 10px 0 10px 0;
 
     .post {
       display: inline-block;
-      background-color: #2f9fef;
-      width: 300px;
-      height: 350px;
+      background-color: white;
+      max-width: 400px;
+      max-height: 300px;
       margin: 0px 10px;
+      border-radius: 4px;
+      object-fit: cover;
+      box-shadow: 1rem 1rem 1rem
+      }
+
+      .post-info {
+
+      }
+
+      .slider-image img {
+        width: 100%;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+
       }
     }
+
   }
   }
 
